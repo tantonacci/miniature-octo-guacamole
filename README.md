@@ -10,8 +10,7 @@
        * GitHub username 1: tantonacci       name 1: Thomas Antonacci
        * GitHub username 2: its-raining      name 2: Xiao Fei
        * GitHub username 3: ahernandez28     name 3: Aaron Hernandez
-       * GitHub username 4:                  name 4:
-       * GitHub username 5:       name 5:
+       * GitHub username 4: hnkoenig         name 4: Henry Koenig
    * When did you complete this exercise? 
    * How long did it take your team to complete this exercise? 
 
