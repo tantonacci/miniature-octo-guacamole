@@ -1,4 +1,4 @@
-# X-Team NN Project Proposal
+# Wandering Merchant
 
 See https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#code for tips on using *Markdown* tags to format __.md__ files
 
@@ -29,29 +29,56 @@ Be sure to submit corresponding image files, i.e. figure1.png (or figure1.jpg) f
 
 ## Problem Description
 
-Briefly describe a problem that your team would like to solve.  
-Describe at a high level a program that could solve that problem.
+Learning opportunity costs and bargaining/ buying and selling.
+Learning the idea of a basic business model : "Buy low, sell high"
+
+Our program would be a simple game where you can purchase items from traveling merchants. Your goal is to maintain a basis of wealth by buying and selling products. Items and Item prices will vary from merchant to merchant. Your job to decide when to purchase items and when to sell those items.
+
+To test, we would use JUnit to inventory creation, purchasing and selling to merchants (Updating both inventories, items and quantities, money), testing that the merchant's data/items change with a merchant refresh.
 
 ## Questions to answer for Exercise #2
 
 1. Name: Give your project proposal a name (and edit the top line of this file)
 
-
+Wandering Merchant
 
 2. Output: Describe the output your program will produce.  Include and example format of the output produced.
 
-
+Name, price, rarity, quantity of item
 
 3. Input: Describe the data that is needed to solve your problem. Include an example format of the input data.
 
-
+Item to purchase
+quantity of purchase
+Buy or sell
+refresh merchant
 
 4. User Interface: Describe a user interface for your program.  Use text menus or a simple graphic user interface.
 
-
+Simple graphical ui, buttons for purchasing and selling. Icons for items.
 
 5. Types List: Break your solution idea down into units that you think can be implemented with a single class.
 
+Main:
+*Main method
+*Hashtable - list of all items
+*Shopkeeper - Current Shopkeeper
+*Inventory - Player's inventory
+
+Shopkeeper:
+*Inventory - Inventory
+*Double - Cost modifier
+
+Inventory:
+*list - Items
+*list - Quantity
+*Double - Money
+
+Items:
+*String - Name
+*Image - Icon
+*Double - Average Price
+*Double - Rarity
 
 
 Name each interface or class and briefly describe its function or purpose.
